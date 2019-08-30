@@ -1,4 +1,4 @@
-# python-card-game
+# PYTHON ADVANCED PROJECTS
 My Name is Ayanwola Ayomide Israel, I built this repository to show all my python code challenges, programs and practice tests for you guys to see. I only uploaded python project challenges based on Python algorithms for creating functions, classes and basic modules like json, os, turtle etc , python gui programs with tkinter and kivy including challenges for web scraping with BeautifulSoup4 and selenium.
 
 # PROJECTS
