@@ -1,0 +1,43 @@
+Download file at
+https://sketcherslodge.blogspot.com/2019/09/python-map-function.html by Netrobe
+GitHub is available there
+Python’s Map built-in function: perform function on iterables
+	When using map built-in function in python you have to create a function first then use the map() method which performs a specific given function on an iterable mostly lists.
+	Map takes two arguments, a function and an iterable i.e
+Map(function, list)
+The function may be created before the map (with def) or inside the map (with lambda)**Note: if you need a tutorial on functions, you can check my python post lists**
+Example 1:
+	Program to get squares of a list on numbers
+	Solution
+	# In this case we will use lambda because we are dealing with a function that has only one statement
+	>>> print(map(lambda x: x**2, [1,2,3,4,5,6,7,8,9]))
+	>>> map object
+	#By the way map returns an object that can also be iterated upon
+	>>> for i in map(lambda x: x**2, [1,2,3,4,5,6,7,8,9]):
+	>>>	print(i)
+	>>>    1
+		4
+		9
+		16
+		25
+		36
+		49
+		64
+		81
+	# Or you can define a function first
+	def Square(x):
+		return x**2
+	for i in map(Square, [1,2,3,4,5,6,7,8,9]):
+		print(i)
+	#This program still does the same thing as the above program
+	**NOTE** Map is not only for mathematical operations, as long as you want to work on an iterable it is a go.
+EXCERCISES (use map with or without other logics):
+Create a program that solves the cubes of a list  of numbers from 1-20
+Create a program that returns the middle character of a list of  odd length words. E.g [“cat”,”carpets”,”mushrooms”]
+Create a program that returns the splited version of the any list of lists e.g [[“My name is python”],[“Python is the best”]] will return
+[‘My’,’name’,‘is’,‘python’]
+[‘Python’ ,‘is’ ,‘the’ ,‘best’]
+
+Play with the above exercises and give yourself problems to solve.
+
+THANKS FOR READING THIS ARTICLE, IF THIS ARTICLE HELPS YOU PLEASE SUSCRIBE TO OUR BLOG AND VISIT PROGRAMMING UNIVERSE ON FACEBOOK TO JOIN OUR OPEN SOURCE COMMUNITY
